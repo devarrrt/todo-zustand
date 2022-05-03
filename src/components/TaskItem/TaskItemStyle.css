@@ -1,0 +1,56 @@
+.TaskItem {
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+    margin: 20px 0;
+    padding: 5px 10px;
+    background-color: #d0c1ff43;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.TaskItemTitle {}
+
+.TaskItemLabel {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.TaskItemInput{
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+     color: rgba(122, 122, 122, 0.646);
+     font-size: 16px;
+}
+
+.TaskItemCheckbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.TaskButtonEdit {
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.TaskButtonEdit:hover {
+    opacity: 0.7;
+}
+
+.TaskButtonDelete {
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.TaskButtonDelete:hover {
+    opacity: 0.7;
+}
